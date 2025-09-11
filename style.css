@@ -1,1 +1,93 @@
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background: url('https://i.ibb.co/ZH72L8W/pink-water.jpg') repeat;
+  color: #222;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  grid-column: 1 / -1;
+  background: #6c3483;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+aside {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border: 2px solid purple;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Main Content */
+main {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border: 2px solid #6c3483;
+  border-radius: 8px;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #6c3483;
+}
+
+ul {
+  margin-left: 20px;
+  list-style: square;
+}
+
+/* Footer */
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 10px;
+  background: #6c3483;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+}
