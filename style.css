@@ -7,10 +7,10 @@
 }
 
 body {
-  font-family: 'Verdana', sans-serif;
-  background: url('https://i.ibb.co/ZH72L8W/pink-water.jpg') repeat;
-  color: #222;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+  background-size: cover;
 }
+
 
 .container {
   display: grid;
